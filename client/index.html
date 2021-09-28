@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Personal Psychic</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to your Personal Psychic</h1>
+      <h3>What do you seek?</h3>
+      <div class="select-container">
+        <select name="Wisdom" id="wisdom-select">
+          <option value="disabled">--select an option--</option>
+          <option value="fortune">Fortune</option>
+          <option value="daily-inspiration">Daily Inspiration</option>
+          <option value="words-of-advice">Advice to Share</option>
+        </select>
+      </div>
+      <div class="response"></div>
+      <div class="input-container">
+        <form class="form">
+          <input type="text" placeholder="Advice to Share:" />
+        </form>
+      </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
